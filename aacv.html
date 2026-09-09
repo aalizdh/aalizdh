@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علی علیزاده | رزومه و پورتفولیو</title>
+    
+    <!-- فراخوانی Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- پیکربندی رنگ‌ها و فونت اختصاصی -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'cyber-dark': '#0F172A',
+                        'cyber-neon': '#00E5FF',
+                        'cyber-light': '#F3F4F6'
+                    },
+                    fontFamily: {
+                        sans: ['"Adelle Sans ARA"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        @font-face {
+            font-family: 'Adelle Sans ARA';
+            src: url('./fonts/Adelle.Sans.ARA-Regular_p30download.com.otf') format('opentype');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Adelle Sans ARA';
+            src: url('./fonts/Adelle.Sans.ARA-Bold_p30download.com.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Adelle Sans ARA';
+            src: url('./fonts/Adelle.Sans.ARA-Light_p30download.com.otf') format('opentype');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .neon-shadow {
+            box-shadow: 0 0 20px rgba(0, 229, 255, 0.4), 0 0 40px rgba(0, 229, 255, 0.15);
+        }
+        .neon-text {
+            text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+        }
+        .neon-line {
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-cyber-dark text-cyber-light font-sans antialiased min-h-screen selection:bg-cyber-neon selection:text-cyber-dark relative">
+    
+    <!-- نوار بالایی مینیمال -->
+    <nav class="w-full flex justify-between items-center px-8 py-6 border-b border-gray-800 relative z-20">
+        <div class="text-cyber-neon text-2xl font-bold neon-text">:)</div>
+        <div class="text-xs text-gray-500 tracking-widest uppercase" dir="ltr">Profile . Architecture</div>
+    </nav>
+
+    <!-- کانتینر اصلی -->
+    <main class="max-w-3xl mx-auto px-6 py-12 relative z-10">
+        
+        <!-- هدر و اطلاعات هویتی: عکس در راست، متن و آیکون‌ها در چپ -->
+        <section class="w-full flex flex-row-reverse items-center justify-between gap-6 mb-20 relative py-4" dir="ltr">
+            
+            <!-- قاب عکس نئونی -->
+            <div class="relative shrink-0 flex items-center justify-center">
+                <div id="hero-avatar" class="w-32 h-32 md:w-36 md:h-36 rounded-full border-2 border-cyber-neon p-1 neon-shadow bg-slate-900 relative z-10 transition-transform hover:scale-105 duration-300">
+                    <img src="profile.jpg" alt="علی علیزاده" class="w-full h-full rounded-full object-cover">
+                </div>
+            </div>
+
+            <!-- ستون متن و آیکون‌ها -->
+            <div class="flex flex-col items-start text-left space-y-3 z-10 w-fit">
+                <div class="w-full">
+                    <h1 class="text-2xl md:text-4xl font-extrabold text-white leading-tight block" dir="rtl">علی علیزاده</h1>
+                    <h2 class="text-sm md:text-base text-cyber-neon font-light neon-text mt-1 block" dir="rtl">دانشجوی صنایع و توسعه‌دهنده</h2>
+                </div>
+                
+                <div class="text-gray-400 flex items-center justify-between w-full text-xs tracking-wide" dir="rtl">
+                    <span>تهران</span>
+                    <span class="text-gray-700">•</span>
+                    <span>۲۵ سال</span>
+                    <span class="text-gray-700">•</span>
+                    <span>فعلاً مجرد</span>
+                </div>
+
+                <!-- ردیف آیکون‌های ارتباطی -->
+                <div class="flex items-center justify-between w-full pt-1" dir="ltr">
+                    <a href="mailto:aalizdeh.ee@gmail.com" class="p-2 border border-cyber-neon/60 text-cyber-neon rounded-lg hover:bg-cyber-neon hover:text-cyber-dark transition-all duration-300" title="Email">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aalizdh" target="_blank" rel="noopener noreferrer" class="p-2 border border-cyber-neon/60 text-cyber-neon rounded-lg hover:bg-cyber-neon hover:text-cyber-dark transition-all duration-300" title="LinkedIn">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/a_alizdh?stkn===MXRmajJ3N3VzdHU4Zg" target="_blank" rel="noopener noreferrer" class="p-2 border border-cyber-neon/60 text-cyber-neon rounded-lg hover:bg-cyber-neon hover:text-cyber-dark transition-all duration-300" title="Instagram">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.79-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://t.me/A_Alizdh" target="_blank" rel="noopener noreferrer" class="p-2 border border-cyber-neon/60 text-cyber-neon rounded-lg hover:bg-cyber-neon hover:text-cyber-dark transition-all duration-300" title="Telegram">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.75 3.81-1.66 6.35-2.76 7.62-3.31 3.63-1.53 4.38-1.8 4.88-1.81.11 0 .37.03.54.17.14.12.18.28.2.45-.02.07-.02.13-.04.2z"/></svg>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="p-2 border border-cyber-neon/60 text-cyber-neon rounded-lg hover:bg-cyber-neon hover:text-cyber-dark transition-all duration-300" title="GitHub">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- کانتینر باکس‌های ماژولار -->
+        <div class="space-y-16">
+            
+            <!-- بخش ۱: مسیر آکادمیک و تحصیلی -->
+            <section class="portfolio-card relative z-10" dir="rtl">
+                <div class="bg-slate-900/80 border border-cyber-neon/30 rounded-2xl p-6 md:p-8 backdrop-blur-md relative overflow-hidden transition-all duration-300 hover:border-cyber-neon/60 neon-shadow">
+                    
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <span class="text-cyber-neon">🎓</span>
+                        <span>مسیر آکادمیک و تحصیلی</span>
+                    </h3>
+
+                    <div class="relative border-r-2 border-cyber-neon/30 pr-6 mr-3 space-y-8">
+                        
+                        <!-- آیتم ۱: مهندسی برق -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">B.Sc.</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">کارشناسی مهندسی برق</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">پایه‌ریزی تفکر سیستمی، مدارهای سخت‌افزاری، سیگنال‌ها و تحلیل مهندسی زیرساخت‌های پایه‌ای.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Electrical Engineering</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">System Analysis</span>
+                            </div>
+                        </div>
+
+                        <!-- آیتم ۲: مهندسی صنایع -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">STUDENT</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">دانشجوی مهندسی صنایع</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">تحلیل سیستم‌ها و فرایندها، بهینه‌سازی زنجیره ارزش، کنترل پروژه و ادغام نگرش مدیریتی با تخصص‌های فنی و زیرساختی.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Industrial Engineering</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">System Dynamics</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Optimization</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- بخش ۲: تکامل فنی: کدنویسی، شبکه و داده -->
+            <section class="portfolio-card relative z-10" dir="rtl">
+                <div class="bg-slate-900/80 border border-cyber-neon/30 rounded-2xl p-6 md:p-8 backdrop-blur-md relative overflow-hidden transition-all duration-300 hover:border-cyber-neon/60 neon-shadow">
+                    
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <span class="text-cyber-neon">⚡</span>
+                        <span>تکامل فنی: کدنویسی، شبکه و داده</span>
+                    </h3>
+
+                    <div class="relative border-r-2 border-cyber-neon/30 pr-6 mr-3 space-y-8">
+                        
+                        <!-- فاز ۱ -->
+                        <div class="relative group">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon transition-colors duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PHASE 01</span>
+                                <h4 class="text-white font-bold text-base">نقطه آغاز: مبانی ساخت‌یافته و آشنایی با لینوکس</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">شروع مسیر برنامه‌نویسی با سی‌پلاس‌پلاس برای درک ساختارهای پایه، و سپس چرخش به پایتون مقدماتی به‌دلیل چابکی و انعطاف بیشتر، همراه با ورود اولیه به دنیای گنو/لینوکس.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">C++ Basics</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Python Fundamentals</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">GNU/Linux</span>
+                            </div>
+                        </div>
+
+                        <!-- فاز ۲ -->
+                        <div class="relative group">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon transition-colors duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PHASE 02</span>
+                                <h4 class="text-white font-bold text-base">بازگشت جدی: پایتون پیشرفته و یادگیری ماشین</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">شروع دوباره با تمرکز بالا؛ تسلط کامل بر پایتون پیشرفته و ورود جدی به حوزه یادگیری ماشین (Machine Learning) برای تحلیل داده و پیاده‌سازی مدل‌های کاربردی.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Advanced Python</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Machine Learning</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Data Analysis</span>
+                            </div>
+                        </div>
+
+                        <!-- فاز ۳ -->
+                        <div class="relative group">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon transition-colors duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PHASE 03</span>
+                                <h4 class="text-white font-bold text-base">زیرساخت ارتباطات: شبکه، پروتکل‌ها و سیسکو</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">توسعه مهارت‌های زیرساختی با گذراندن مفاهیم پایه شبکه (Network+) و سپس ورود تخصصی به پیکربندی روتینگ، سوئیچینگ و طراحی شبکه با دوره CCNA.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">CompTIA Network+</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Cisco CCNA</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Routing & Switching</span>
+                            </div>
+                        </div>
+
+                        <!-- فاز ۴ -->
+                        <div class="relative group">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon transition-colors duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PHASE 04</span>
+                                <h4 class="text-white font-bold text-base">ادغام زیرساخت و توسعه سیستم</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">ترکیب توانایی‌های برنامه‌نویسی و شبکه برای استقرار امن سرورها، کانتینرسازی، مانیتورینگ منابع و تجربه توسعه ابزارهای سیستمی با راست.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Docker</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Linux SysAdmin / Bash</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Rust</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Netdata / Nginx</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- بخش ۳: پروژه‌ها، توسعه محصول و تجارب اجرایی -->
+            <section class="portfolio-card relative z-10" dir="rtl">
+                <div class="bg-slate-900/80 border border-cyber-neon/30 rounded-2xl p-6 md:p-8 backdrop-blur-md relative overflow-hidden transition-all duration-300 hover:border-cyber-neon/60 neon-shadow">
+                    
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <span class="text-cyber-neon">🚀</span>
+                        <span>پروژه‌ها و تجارب اجرایی</span>
+                    </h3>
+
+                    <div class="relative border-r-2 border-cyber-neon/30 pr-6 mr-3 space-y-8">
+                        
+                        <!-- پروژه ۱: جاگیر -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PROJECT 01</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">سرویس رزرو جلسات «جاگیر» (Jagir)</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">توسعه MVP، کانفیگ لایه‌های امنیتی سرور با Nginx و فایروال UFW، داکرایز کردن پروژه و پایش آنلاین سلامت منابع سیستم.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Server Admin</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Docker</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Nginx / UFW</span>
+                            </div>
+                        </div>
+
+                        <!-- پروژه ۲: مدل‌های یادگیری ماشین -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PROJECT 02</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">مدل‌های تحلیلی و پیش‌بینی داده (ML)</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">توسعه پروژه‌های کلاسیفیکیشن تشخیص خطر حمله قلبی، کلاسترینگ مشتریان بانکی و رگرسیون تخمین قیمت مسکن در پایتون.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Scikit-Learn</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Pandas & NumPy</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Regression & Classification</span>
+                            </div>
+                        </div>
+
+                        <!-- پروژه ۳: بیزتاکس و تهلاگ -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">PROJECT 03</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">مدیریت تیم و تولید محتوا (BizTalks & Tehlog)</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">مدیریت تولید و هماهنگی مهمانان در برنامه مدیریتی BizTalks، به همراه سرپرستی و تولید پادکست‌های تخصصی جامعه کاربری لینوکس تهران (تهلاگ).</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Production Management</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Podcast Direction</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Community Building</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- بخش ۴: دوره‌ها و گواهینامه‌های تخصصی -->
+            <section class="portfolio-card relative z-10" dir="rtl">
+                <div class="bg-slate-900/80 border border-cyber-neon/30 rounded-2xl p-6 md:p-8 backdrop-blur-md relative overflow-hidden transition-all duration-300 hover:border-cyber-neon/60 neon-shadow">
+                    
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <span class="text-cyber-neon">📜</span>
+                        <span>دوره‌ها و گواهینامه‌های تخصصی</span>
+                    </h3>
+
+                    <div class="relative border-r-2 border-cyber-neon/30 pr-6 mr-3 space-y-8">
+                        
+                        <!-- مدرک ۱ -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">TOUSINSO</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">مدارک دوره‌های شبکه سیسکو و مبانی زیرساخت</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">گواهینامه‌های رسمی دوره‌های جامع Network+ (۳۵ ساعت) و CCNA (۳۶ ساعت) با تمرکز بر مفاهیم سوییچینگ و روتینگ.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Network+ (35h)</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">CCNA (36h)</span>
+                            </div>
+                        </div>
+
+                        <!-- مدرک ۲ -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">MAKTABKHOONEH</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">مدارک توسعه پایتون و هوش مصنوعی</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">گواهی پایان دوره‌های پیشرفته برنامه‌نویسی پایتون (۵۷ ساعت) و مبانی یادگیری ماشین با پایتون (۳۳ ساعت).</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Advanced Python (57h)</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Machine Learning (33h)</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- بخش ۵: فعالیت‌های اجتماعی و داوطلبانه -->
+            <section class="portfolio-card relative z-10" dir="rtl">
+                <div class="bg-slate-900/80 border border-cyber-neon/30 rounded-2xl p-6 md:p-8 backdrop-blur-md relative overflow-hidden transition-all duration-300 hover:border-cyber-neon/60 neon-shadow">
+                    
+                    <h3 class="text-xl md:text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <span class="text-cyber-neon">🌐</span>
+                        <span>فعالیت‌های اجتماعی و داوطلبانه</span>
+                    </h3>
+
+                    <div class="relative border-r-2 border-cyber-neon/30 pr-6 mr-3 space-y-8">
+                        
+                        <!-- فعالیت ۱: اینوتکس -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">INOTEX</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">عضویت در تیم اجرایی رویداد بین‌المللی اینوتکس</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">مشارکت در هماهنگی‌های عملیاتی، مدیریت جریان برگزاری رویداد و ارتباط موثر با تیم‌های استارتاپی و فناوری.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Event Operations</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Coordination</span>
+                            </div>
+                        </div>
+
+                        <!-- فعالیت ۲: انجمن‌های علمی -->
+                        <div class="relative group cursor-default">
+                            <div class="timeline-dot absolute -right-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-900 border-2 border-cyber-neon shadow-[0_0_8px_rgba(0,229,255,0.8)] group-hover:bg-cyber-neon group-hover:scale-125 transition-all duration-300"></div>
+                            
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-cyan-950/60 border border-cyber-neon/50 text-cyber-neon">COMMUNITY</span>
+                                <h4 class="text-white font-bold text-base group-hover:text-cyber-neon transition-colors duration-200">همکاری با انجمن‌های علمی دانشجویی</h4>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-3">برگزاری کارگاه‌های آموزشی، وبینارهای انتقال تجربه و هدایت پروژه‌های تیمی در بستر انجمن‌های علمی دانشگاهی.</p>
+                            <div class="flex flex-wrap gap-2" dir="ltr">
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Student Association</span>
+                                <span class="px-2.5 py-1 text-xs rounded bg-slate-800/80 border border-slate-700 text-cyan-300 font-mono">Workshops</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- فوتر ترمینالی و پایانه نهایی مدار -->
+        <footer class="mt-20 pt-8 border-t border-slate-800 text-center relative z-10" dir="rtl">
+            
+            <!-- پایانه اتصال پالس انرژی و دکمه بازگشت به بالا -->
+            <div class="flex flex-col items-center justify-center -mt-14 mb-8">
+                <button id="terminal-node" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="group relative flex items-center justify-center w-14 h-14 rounded-full bg-slate-900 border-2 border-cyber-neon/40 transition-all duration-500 neon-shadow hover:scale-110" title="انتقال پالس به بالا">
+                    <span id="terminal-label" class="absolute -top-7 text-xs font-mono text-cyber-neon/70 transition-all duration-300 font-normal tracking-wider">RETURN ↑</span>
+                    <svg id="terminal-icon" class="w-6 h-6 text-cyber-neon transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+                </button>
+            </div>
+
+            <!-- وضعیت آنلاین سرور و راه‌های ارتباطی سریع -->
+            <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-gray-400 font-mono mb-6" dir="ltr">
+                <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>STATUS: ONLINE</span>
+                </div>
+                <span class="text-slate-700">|</span>
+                <a href="mailto:aalizdeh.ee@gmail.com" class="hover:text-cyber-neon transition-colors">aalizdeh.ee@gmail.com</a>
+                <span class="text-slate-700">|</span>
+                <a href="https://www.linkedin.com/in/aalizdh" target="_blank" rel="noopener noreferrer" class="hover:text-cyber-neon transition-colors">linkedin.com/in/aalizdh</a>
+            </div>
+
+            <p class="text-xs text-slate-600 font-mono" dir="ltr">© 2026 Ali Alizadeh — Designed with Cyberpunk Architecture</p>
+        </footer>
+
+    </main>
+
+    <!-- لایه مدار SVG سراسری -->
+    <svg id="cyber-circuit" class="absolute top-0 left-0 w-full pointer-events-none z-20" style="overflow: visible;" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="circuit-glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="5" result="blur1" />
+                <feGaussianBlur stdDeviation="2" result="blur2" />
+                <feMerge>
+                    <feMergeNode in="blur1" />
+                    <feMergeNode in="blur2" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </defs>
+
+        <!-- ریل نوری خط‌چین (فقط بیرون باکس‌ها و روی قوس‌ها نمایش داده می‌شود) -->
+        <path id="circuit-visual-path" d="" fill="none" stroke="rgba(0, 229, 255, 0.2)" stroke-width="2" stroke-dasharray="6 6" />
+        
+        <!-- مسیر محاسباتی پیوسته برای حرکت بدون گیر کردن قطره نوری (کاملاً نامرئی) -->
+        <path id="circuit-path" d="" fill="none" stroke="transparent" stroke-width="1" />
+        
+        <!-- قطره انرژی اسکرول -->
+        <circle id="energy-pulse" r="6" fill="#00e5ff" opacity="0" filter="url(#circuit-glow)" />
+    </svg>
+
+    <script>
+        const svg = document.getElementById('cyber-circuit');
+        const path = document.getElementById('circuit-path');
+        const visualPath = document.getElementById('circuit-visual-path');
+        const pulse = document.getElementById('energy-pulse');
+        const avatar = document.getElementById('hero-avatar');
+        const terminalNode = document.getElementById('terminal-node');
+        const terminalLabel = document.getElementById('terminal-label');
+        const terminalIcon = document.getElementById('terminal-icon');
+        const mainContainer = document.querySelector('main');
+
+        let pathLength = 0;
+        let currentProgress = 0;
+        let targetProgress = 0;
+        const lerpFactor = 0.05;
+
+        function drawCircuit() {
+            if (!avatar || !svg || !path || !visualPath || !pulse || !mainContainer) return;
+
+            // خواندن ارتفاع دقیق و استاتیک از کانتینر اصلی جهت جلوگیری از ایجاد اسکرول نامتناهی
+            const mainRect = mainContainer.getBoundingClientRect();
+            const totalContentHeight = mainRect.bottom + window.scrollY + 60;
+            svg.setAttribute('height', totalContentHeight);
+            svg.style.height = totalContentHeight + 'px';
+
+            const avatarRect = avatar.getBoundingClientRect();
+            const startX = avatarRect.left + (avatarRect.width / 2);
+            const startY = avatarRect.bottom + window.scrollY;
+
+            const cards = document.querySelectorAll('.portfolio-card');
+            if (cards.length === 0) return;
+
+            const firstCardDots = cards[0].querySelectorAll('.timeline-dot');
+            const targetX = firstCardDots.length > 0 
+                ? (firstCardDots[0].getBoundingClientRect().left + (firstCardDots[0].getBoundingClientRect().width / 2)) 
+                : startX;
+
+            const isMobile = window.innerWidth < 768;
+            // ریل بیرونی در سمت راست کادر باکس
+            const railOffset = isMobile ? 18 : 34;
+            const railX = targetX + railOffset;
+
+            let fullD = `M ${startX} ${startY}`;
+            let visualD = `M ${startX} ${startY}`;
+
+            // انیمیشن چکه عمودی اولیه
+            const dripDistance = isMobile ? 18 : 30;
+            const dripY = startY + dripDistance;
+            fullD += ` L ${startX} ${dripY} C ${startX} ${dripY + 20}, ${railX} ${dripY + 15}, ${railX} ${dripY + 40}`;
+            visualD += ` L ${startX} ${dripY} C ${startX} ${dripY + 20}, ${railX} ${dripY + 15}, ${railX} ${dripY + 40}`;
+
+            cards.forEach((card) => {
+                const dots = card.querySelectorAll('.timeline-dot');
+                if (dots.length === 0) return;
+
+                const cardRect = card.getBoundingClientRect();
+                const cardTopY = cardRect.top + window.scrollY;
+                const cardBottomY = cardRect.bottom + window.scrollY;
+
+                const firstDotRect = dots[0].getBoundingClientRect();
+                const firstY = firstDotRect.top + (firstDotRect.height / 2) + window.scrollY;
+
+                const entryY = cardTopY - 15;
+                fullD += ` L ${railX} ${entryY}`;
+                visualD += ` L ${railX} ${entryY}`; // خط‌چین بیرون باکس متوقف می‌شود
+
+                // مسیر محاسباتی قطره با انحنا به داخل دایره اول می‌رود
+                fullD += ` C ${railX} ${firstY - 10}, ${targetX + 10} ${firstY - 10}, ${targetX} ${firstY}`;
+
+                // حرکت محاسباتی قطره روی دایره‌ها
+                for (let i = 1; i < dots.length; i++) {
+                    const dotRect = dots[i].getBoundingClientRect();
+                    const dotY = dotRect.top + (dotRect.height / 2) + window.scrollY;
+                    fullD += ` L ${targetX} ${dotY}`;
+                }
+
+                const lastDotRect = dots[dots.length - 1].getBoundingClientRect();
+                const lastY = lastDotRect.top + (lastDotRect.height / 2) + window.scrollY;
+                const exitY = cardBottomY + 15;
+
+                // انحنای محاسباتی خروج به سمت ریل بیرونی
+                fullD += ` C ${targetX + 10} ${lastY + 10}, ${railX} ${lastY + 10}, ${railX} ${exitY}`;
+                
+                // خط‌چین دقیقاً از زیر باکس ادامه پیدا می‌کند (داخل باکس کلاً خالی می‌ماند)
+                visualD += ` M ${railX} ${exitY}`;
+            });
+
+            // اتصال پایانه فوتر
+            if (terminalNode) {
+                const termRect = terminalNode.getBoundingClientRect();
+                const termX = termRect.left + (termRect.width / 2);
+                const termY = termRect.top + (termRect.height / 2) + window.scrollY;
+
+                const termApproachY = termY - 35;
+                fullD += ` L ${railX} ${termApproachY} C ${railX} ${termY - 10}, ${termX} ${termY - 15}, ${termX} ${termY}`;
+                visualD += ` L ${railX} ${termApproachY} C ${railX} ${termY - 10}, ${termX} ${termY - 15}, ${termX} ${termY}`;
+            }
+
+            path.setAttribute('d', fullD);
+            visualPath.setAttribute('d', visualD);
+            pathLength = path.getTotalLength();
+        }
+
+        function onScrollUpdate() {
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            if (maxScroll <= 0) return;
+
+            targetProgress = Math.min(Math.max(scrollTop / maxScroll, 0), 1);
+        }
+
+        function animatePulse() {
+            if (pathLength > 0 && pulse) {
+                currentProgress += (targetProgress - currentProgress) * lerpFactor;
+
+                if (currentProgress > 0.002) {
+                    pulse.setAttribute('opacity', '1');
+                    const point = path.getPointAtLength(currentProgress * pathLength);
+                    pulse.setAttribute('cx', point.x);
+                    pulse.setAttribute('cy', point.y);
+
+                    if (currentProgress < 0.03) {
+                        pulse.setAttribute('r', '7');
+                    } else {
+                        pulse.setAttribute('r', '5.5');
+                    }
+
+                    // فعال‌سازی نور گره‌ها
+                    const allDots = document.querySelectorAll('.timeline-dot');
+                    allDots.forEach(dot => {
+                        const dotRect = dot.getBoundingClientRect();
+                        const dotY = dotRect.top + (dotRect.height / 2) + window.scrollY;
+
+                        if (point.y >= dotY - 10) {
+                            dot.style.backgroundColor = '#00e5ff';
+                            dot.style.boxShadow = '0 0 14px rgba(0, 229, 255, 0.9)';
+                            dot.style.transform = 'scale(1.25)';
+                        } else {
+                            dot.style.backgroundColor = '';
+                            dot.style.boxShadow = '';
+                            dot.style.transform = '';
+                        }
+                    });
+
+                    // فعال شدن پایانه فوتر
+                    if (currentProgress >= 0.96) {
+                        if (terminalNode) {
+                            terminalNode.style.backgroundColor = '#00e5ff';
+                            terminalNode.style.borderColor = '#00e5ff';
+                            terminalNode.style.boxShadow = '0 0 30px rgba(0, 229, 255, 1)';
+                        }
+                        if (terminalIcon) terminalIcon.style.color = '#0F172A';
+                        if (terminalLabel) {
+                            terminalLabel.classList.add('font-extrabold', 'neon-text');
+                            terminalLabel.style.color = '#00e5ff';
+                        }
+                    } else {
+                        if (terminalNode) {
+                            terminalNode.style.backgroundColor = '';
+                            terminalNode.style.borderColor = '';
+                            terminalNode.style.boxShadow = '';
+                        }
+                        if (terminalIcon) terminalIcon.style.color = '';
+                        if (terminalLabel) {
+                            terminalLabel.classList.remove('font-extrabold', 'neon-text');
+                            terminalLabel.style.color = '';
+                        }
+                    }
+                } else {
+                    pulse.setAttribute('opacity', '0');
+                }
+            }
+
+            requestAnimationFrame(animatePulse);
+        }
+
+        window.addEventListener('load', () => {
+            drawCircuit();
+            onScrollUpdate();
+            animatePulse();
+        });
+        window.addEventListener('resize', () => {
+            drawCircuit();
+            onScrollUpdate();
+        });
+        window.addEventListener('scroll', onScrollUpdate, { passive: true });
+
+        setTimeout(drawCircuit, 300);
+    </script>
+    
+</body>
+</html>
